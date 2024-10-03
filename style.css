@@ -1,0 +1,138 @@
+/* index */
+header
+{
+    background-color:#f7c2c2; 
+    padding-top: 100px;
+}
+.announcement
+{
+    background-color: #8891af;
+    color: whitesmoke;
+    font-family: "Fredoka", sans-serif;
+    height: 30px;
+    width: 100%;  
+    white-space: nowrap;  
+    overflow: hidden;  
+    position: relative;  
+    align-items: center; 
+    justify-content: center; 
+    height: 35px;  
+}
+
+.announcement-text {
+    display: inline-block;  
+    position: absolute;  
+    white-space: nowrap;  
+    animation: scroll-text 15s linear infinite;  
+}
+
+@keyframes scroll-text {
+    0% {
+        transform: translateX(-100%); 
+    }
+    100% {
+        transform: translateX(300%);  
+    }
+}
+
+.logo
+{
+    color: whitesmoke; 
+    font-family: "Fredoka", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <500>;
+    font-style: normal;
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    height: 130px;
+}
+
+
+
+.navbar
+{
+    background-color: #DE8C9E;
+    display: flex;
+    justify-content: center;
+    font-family: "Fredoka";
+    font-optical-sizing: auto;
+    font-weight: <1000>;
+    height: 60px;
+    padding-top: 16px;
+}
+.navbarItems
+{
+    color: whitesmoke;
+    gap: 60px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+}
+
+.icons a
+{
+    color: whitesmoke;
+}
+.icons  {
+    padding-left: 1500px; /* Consider adjusting this for better layout */
+    color: whitesmoke;
+    display: flex;
+    gap:10px;
+    text-decoration: none;
+    
+
+    
+}
+.icons a:hover {
+    color: rgb(193, 139, 139); /* Keep the color the same on hover */
+}
+
+
+.yt
+{
+    font-size:40px;
+    transform: translateY(5px); 
+   
+    
+}
+.tiktok
+{
+    font-size: 30px;
+    padding-top:10px;
+    transform: translateY(4px);
+}
+.ig
+{
+    font-size: 23px;
+    transform: translateY(19px); 
+    padding-right: 10px;
+}
+dropdown-menu
+{
+    color: rgb(190, 85, 85);
+}
+.dropdown-item {
+    color: #c47878; /* Change this to your desired text color */
+}
+
+.homepage
+{
+    height: 1000px;
+    background: linear-gradient(#ffffff, #fddce2, #eed8d9);
+
+}
+
+.footer
+{
+    background-color: #8891af;
+    color: whitesmoke;
+}
+
+h4
+{
+    padding-left: 60px;
+    
+}
+
